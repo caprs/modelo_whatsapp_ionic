@@ -1,0 +1,156 @@
+ion-content{
+    --ion-background-color: black;
+}
+
+.container{
+    width: 80%; /* Largura do container */
+    margin: 50px auto; /* Centraliza o container na página */
+}
+
+.camera{
+    position: absolute;
+    left: 310px;
+    color: rgb(21, 99, 208);
+    width: 30px;
+    height: 30px;
+    
+}
+
+.pontos{
+    margin-left: -15px;
+    color: rgb(21, 99, 208);
+    width: 30px;
+    height: 30px;
+    top: 5px;
+}
+
+.circulo{
+    color: rgb(21, 99, 208);
+    left: 370px;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+}
+
+span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    padding: 10px;
+    font-size: 200%;
+    color: white;
+}
+
+
+.conversas{
+    padding-top: -10px;
+    margin-left: 10px;
+}
+
+.pesquisa{
+    position: absolute;
+    left: 15px;
+    width: 310px;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: none;
+}
+.titulopesquisa{
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: rgb(146, 146, 146);
+    left: 30px;
+    margin-top: -5px;
+}
+#pesquisar{
+    background-color: rgba(213, 213, 213, 0.589);
+    padding: 5px;
+    border-radius: 8px;
+  font-size: 16px;
+  width: 300px; /* Ajuste conforme necessário */
+    border: none;
+    margin-top: -25px;
+    margin-left: 10px;
+}
+
+#filtro{
+    top: 190px;
+    left: 360px;
+    position: absolute;
+    color: rgb(21, 99, 208);
+
+}
+
+#lupa{
+    position: absolute;
+    left: 25px;
+    top: 190px;
+}
+
+#pesquisar::placeholder{
+    padding-left: 20px;
+    color: white;
+}
+
+#mc{
+    border-radius: 40px;
+}
+
+#justin{
+    border-radius: 40px;
+}
+
+#recayd{
+    border-radius: 40px;
+}
+
+#gab{
+    border-radius: 40px;
+}
+
+#ney{
+    border-radius: 40px;
+}
+
+#traplaudo{
+    border-radius: 40px;
+}
+
+#ryan{
+    border-radius: 40px;
+
+}
+
+#ph{
+    border-radius: 40px;
+}
+
+ion-text{
+    position: absolute;
+    top: 45px;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+
+#hora{
+    position: absolute;
+    left: 230px;
+    top: 20px;
+    font-size: 12px;
+    color: rgb(152, 144, 144);
+}
+
+#hora1{
+    position: absolute;
+    left: 230px;
+    top: 20px;
+    font-size: 12px;
+    color: rgb(21, 99, 208);
+}
+
+ion-label{
+    color: white;
+}
+
